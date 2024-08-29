@@ -1,9 +1,12 @@
-import { useState } from 'react'
+import Chai from './chai'
 
 function App() {
 
   return (
+    <>
       <h1>Chai aur Vite | Akshay </h1>
+      <Chai></Chai>
+    </>
   )
 }
 
