@@ -29,3 +29,7 @@ public folder is the one in which the main html file is
 We use router to route to some other page in a website
 
 If we use react in browser then we react dom of react is used for the job while if we wnt to implement the mobile app then we use react native .
+
+lect-5:
+why hooks are needed:
+to propogate the change in UI 
