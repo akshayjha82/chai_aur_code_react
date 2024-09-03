@@ -10,7 +10,12 @@ function App() {
     }
     // counter = counter + 1;  this does changes the counter but that change is not visible in ui thus we use hooks
     else{
-    setCounter(counter + 1);
+      // What if we want to increase the count directly by 5 , condition is we cannot directly add 5 to counter => We can do it by calling the setCounter variable 5 times. Is it the correct solution ? =>No. If we call it 5 or 10 times does'nt matters it will only increment it by 1 since the useState sends the change in batch so it considers all the setCounter function as a single batch with the purpose of incrementing the value of counter by 1 .Thus it is not possible , then how can we ?Solution below =>
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
     } 
    }
 
