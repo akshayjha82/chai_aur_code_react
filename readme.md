@@ -57,3 +57,8 @@ lect -14(React-Redux)=>
     3)send your reducres to store
     4)now whenever you want to send value in the store use usedispatch and if you want value from the store use useselector.
     Note:WHenever you dispatch you do it via reducers.
+
+lect-23-(forwardRef)
+    forward refrence -it is a react hook
+    usecase:
+    when we create a login form we create a input field component and want to use it for username,password ,and other field in login page for that we want the accsess of the state of that one input component in all these fields that is possible bcoz of forwardRef it passes the refrence of state of input filed so that it can be used everywhere.
