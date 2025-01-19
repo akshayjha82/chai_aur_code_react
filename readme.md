@@ -62,3 +62,7 @@ lect-23-(forwardRef)
     forward refrence -it is a react hook
     usecase:
     when we create a login form we create a input field component and want to use it for username,password ,and other field in login page for that we want the accsess of the state of that one input component in all these fields that is possible bcoz of forwardRef it passes the refrence of state of input filed so that it can be used everywhere.
+
+lect-25(regex)
+       regex ek query ki tarah samjho jo ek specific pattern ko match krne ke liye ya pattern  ko chhatne ke loye kaam aata hai
+       for example refer postform component in megablog project 
